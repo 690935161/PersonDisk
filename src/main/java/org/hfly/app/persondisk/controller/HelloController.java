@@ -24,6 +24,6 @@ public class HelloController
 	@RequestMapping("/regist")
 	public String regist()
 	{
-		return "login";
+		return "regist";
 	}
 }
