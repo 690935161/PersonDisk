@@ -14,9 +14,15 @@ public class HelloController
 		request.setAttribute("hello", "Hello World!");
 		return "index";
 	}
-	
+
 	@RequestMapping("/login")
 	public String login()
+	{
+		return "login";
+	}
+
+	@RequestMapping("/regist")
+	public String regist()
 	{
 		return "login";
 	}
